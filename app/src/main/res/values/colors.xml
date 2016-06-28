@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDark">#e7264d</color>
+    <color name="colorAccent">#298c55</color>
+    <color name="white_transparent">#00FFFFFF</color>
+    <color name="feed_background">#eeeeee</color>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <color name="blue">#00CCCB</color>
+    <color name="background_tab_pressed">#1AFFFFFF</color>
+    <color name="black">#222222</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pure_blue">#00ACEE</color>
+    <color name="icon_color">#bebebe</color>
+    <color name="light_gray">#f6f6f6</color>
+    <color name="line_gray">#949494</color>
+    <color name="edit_text_hide_line">#00000000</color>
+    <color name="background_item_product_detail_sold_out">#a3a3a3</color>
 </resources>

@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">cungxunu</string>
+    <string name="app_name">Hihi</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string-array name="item_drawer">
+        <item>@string/menu_1</item>
+        <item>@string/menu_2</item>
+        <item>@string/menu_3</item>
+        <item>@string/menu_4</item>
+        <item>@string/menu_5</item>
+    </string-array>
+
+    <string-array name="icon_drawer">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+    </string-array>
+
+    <string name="menu_1">Home</string>
+    <string name="menu_2">Cung Hoang Dao</string>
+    <string name="menu_3">Cung Hoang Dao</string>
+    <string name="menu_4">Cung Hoang Dao</string>
+    <string name="menu_5">Cung Hoang Dao</string>
 </resources>

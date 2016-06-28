@@ -7,14 +7,16 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
+import cungxunu.cunghoangdao.cheng.cungxunu.BaseFragment;
 import cungxunu.cunghoangdao.cheng.cungxunu.R;
 
 /**
  * Created by Welcome on 5/20/2016.
  */
-public class FragmentB extends Fragment {
+public class FragmentB extends BaseFragment implements FragmentDrawer.FragmentDrawerListener{
     private TextView tv;
     @Nullable
     @Override
@@ -23,6 +25,17 @@ public class FragmentB extends Fragment {
                 container, false);
         tv = (TextView) view.findViewById(R.id.tv);
         tv.setText("Fragment B");
+        Button btn = (Button) view.findViewById(R.id.btn);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            }
+        });
         return view;
+    }
+
+    @Override
+    public void onDrawerItemSelected(View view, int position) {
+
     }
 }
