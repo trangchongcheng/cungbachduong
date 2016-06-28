@@ -1,0 +1,39 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="4dp"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="2dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/item_icon_ll"
+            android:clickable="true"
+            android:background="@drawable/ripple_item_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/ic_12_con_giap_dan"
+                android:padding="1dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:id="@+id/item_icon_imgSlider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/colorAccent"
+                style="@style/text_cunghoangdao"
+                android:text="@string/app_name"
+                android:id="@+id/item_icon_tvName"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_drawer_width">260dp</dimen>
+    <dimen name="event_title_text_size">30sp</dimen>
+
+    <dimen name="dimen_4dp">5.6dp</dimen>
+    <dimen name="dimen_8dp">11.2dp</dimen>
+    <dimen name="dimen_12dp">16.8dp</dimen>
+    <dimen name="dimen_16dp">22.4dp</dimen>
+    <dimen name="dimen_20dp">28dp</dimen>
+    <dimen name="dimen_24dp">33.6dp</dimen>
+    <dimen name="dimen_28dp">39.2dp</dimen>
+    <dimen name="dimen_32dp">44.8dp</dimen>
+    <dimen name="dimen_36dp">50.4dp</dimen>
+    <dimen name="dimen_40dp">56dp</dimen>
+    <dimen name="dimen_44dp">61.6dp</dimen>
+    <dimen name="dimen_48dp">67.2dp</dimen>
+    <dimen name="dimen_52dp">72.8dp</dimen>
+    <dimen name="dimen_56dp">78.4dp</dimen>
+    <dimen name="dimen_60dp">84dp</dimen>
+    <dimen name="dimen_64dp">89.6dp</dimen>
+    <dimen name="dimen_68dp">95.2dp</dimen>
+    <dimen name="dimen_72dp">100.8dp</dimen>
+    <dimen name="dimen_76dp">106.4dp</dimen>
+    <dimen name="dimen_80dp">112dp</dimen>
+    <dimen name="dimen_84dp">117.6dp</dimen>
+    <dimen name="dimen_88dp">123.2dp</dimen>
+    <dimen name="dimen_92dp">128.8dp</dimen>
+    <dimen name="dimen_96dp">134.4dp</dimen>
+    <dimen name="dimen_120dp">168dp</dimen>
+</resources>
